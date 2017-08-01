@@ -6,7 +6,7 @@
 $(() => {
   let myChart
   const ctx = document.getElementById('canvas').getContext('2d')
-  const socket = io.connect('https://fcc-stockmarket-togusarusso.c9users.io/')
+  const socket = io.connect('https://togusa-fcc-stocks.herokuapp.com/')
   const loadStocks = () => $.getJSON('/api/stocks', stocks => {
     const chips = stocks.map(stock => (
       `<div class='chip' id='${stock.company}'>
