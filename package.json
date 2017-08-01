@@ -1,0 +1,30 @@
+{
+  "name": "fcc-stockmarket",
+  "version": "1.0.0",
+  "description": "https://www.freecodecamp.com/challenges/chart-the-stock-market",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TogusaRusso/fcc-stockmarket.git"
+  },
+  "keywords": [
+    "stock",
+    "fcc",
+    "study"
+  ],
+  "author": "Dmitry Akentyev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TogusaRusso/fcc-stockmarket/issues"
+  },
+  "homepage": "https://github.com/TogusaRusso/fcc-stockmarket#readme"
+}
