@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# cloud9 mongod
+data/
+mongod

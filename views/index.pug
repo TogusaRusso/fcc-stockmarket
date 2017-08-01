@@ -7,10 +7,19 @@ html
     link(href="https://fonts.googleapis.com/icon?family=Material+Icons", rel='stylesheet')
   body
     h1 Chart the Stock Market
+    canvas#canvas
+    #chips
+    form#addCompany
+      .row
+        .input-field.col.s6
+          input#company(type='text')
+          label(for='company') Add company
 
   script(src='https://code.jquery.com/jquery-3.2.1.min.js')
   script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js')
   script(src='/socket.io/socket.io.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js')
   script(src='/app.js')
+
   
   
